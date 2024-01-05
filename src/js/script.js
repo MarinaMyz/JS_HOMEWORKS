@@ -1,4 +1,6 @@
-let numOrStr = prompt('input number or string');
+'use strict';
+
+const numOrStr = prompt('input number or string');
 console.log(numOrStr);
 
 switch (true) {
