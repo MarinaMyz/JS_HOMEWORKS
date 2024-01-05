@@ -1,4 +1,14 @@
-Треба реалізувати просту програму з наступними умовами:
+Переписати код нижче з використанням конструкції switch…case
 
-За допомогою prompt запитати ім'я користувача.
-За допомогою alert вивести "Hello, John! How are you?" , де John це те, що ввів користувач
+let numOrStr = prompt('input number or string');
+console.log(numOrStr)
+
+if(numOrStr === null) {
+console.log('ви скасували')
+} else if( numOrStr.trim() === '' ) {
+console.log('Empty String');
+} else if ( isNaN( +numOrStr ) ) {
+console.log(' number is Ba_NaN')
+} else {
+console.log('OK!')
+}
