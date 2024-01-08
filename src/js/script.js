@@ -1,1 +1,17 @@
 'use strict';
+const arr = [1,2,3,4,5];
+let sum = 0;
+for(let i = 0; i < arr.length; i++){
+    sum += arr[i];
+}
+console.log(sum);
+
+
+//5.
+const ar = [1,2,3,4,5];
+let squared = 0;
+for(let i of ar ) {
+    i = i ** 2;
+    squared += i;
+}
+console.log(squared);
