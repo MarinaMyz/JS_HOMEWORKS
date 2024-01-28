@@ -1,4 +1,22 @@
 'use strict';
+const lowestDivisor = Number(prompt('Please write number'));
+
+if (isNaN(lowestDivisor)) {
+    alert("Ви ввели не число!");
+    return;
+}
+
+if (lowestDivisor < 2) {
+    alert("Число повинно бути більшим або дорівнювати 2");
+    return;
+}
+
+for (let i = 2; i <= number; i++) {
+    if (lowestDivisor % i === 0) {
+        alert(`Мінімальний дільник числа ${lowestDivisor} є ${i}`);
+        return;
+    }
+}
 //1
 let x = 10, y = 7;
 
@@ -10,9 +28,9 @@ const integer = prompt('Прошу напишіть ціле число');
 
 console.log(integer.startsWith('-') ? `Число складається з ${integer.length - 1} цифр` : `Число складається з ${integer.length} цифер`)
 if(+integer > 0){
-    alert('Число' + integer + 'однозначне позитивне');
+    alert('Число ' + integer + ' однозначне позитивне');
 } else {
-    alert('Число' + integer + 'однозначне негативне');
+    alert('Число ' + integer + ' однозначне негативне');
 }
 
 //4
