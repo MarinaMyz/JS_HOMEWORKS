@@ -2,7 +2,6 @@
 
 const lowestDivisor = Number(prompt('Please write number'));
 
-
 if (isNaN(lowestDivisor)) {
     alert("Ви ввели не число!");
 } else if (lowestDivisor < 2) {
