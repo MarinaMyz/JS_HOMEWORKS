@@ -15,6 +15,7 @@ const users = function () {
         }
     }
 }
+
 const createUser = users();
 
 const user = createUser( 'Mike',  26);
