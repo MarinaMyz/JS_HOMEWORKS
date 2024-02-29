@@ -14,5 +14,4 @@ const textArray = [];
 for (const li of liElements) {
     textArray.push(li.textContent);
 }
-
 console.log(textArray);
