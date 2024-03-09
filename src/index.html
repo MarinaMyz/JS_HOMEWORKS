@@ -6,8 +6,18 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+<input type="text" id="numberInput" placeholder="Enter a number">
+<button onclick="checkNumber()">Перевірити</button>
 
-
-<script src="js/script.js"></script>
+<script>
+    function checkNumber() {
+        var number = document.getElementById("numberInput").value;
+        if (number % 2 === 0) {
+            alert("Парне число");
+        } else {
+            alert("Непарне число");
+        }
+    }
+</script>
 </body>
 </html>
