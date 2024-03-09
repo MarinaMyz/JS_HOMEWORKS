@@ -1,5 +1,6 @@
 'use strict';
 
+
 function createTable() {
     const table = document.createElement('table');
 
